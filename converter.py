@@ -1,4 +1,5 @@
 import cv2
+from time import sleep
 import json
 
 char = '█'
@@ -45,6 +46,8 @@ footer = [
 # Only read all frames in a video
 ret,large_frame = vid.read()
 while ret:
+    # Sleep to regulate cpu use
+    sleep(0.001)
     # Scale Frame
     frame = cv2.resize(large_frame,(80,45))
 
