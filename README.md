@@ -8,4 +8,5 @@ The output is not the most space efficcient and I would reccomend only short vid
 Loading one of these will cause increased CPU and RAM use on the server.
 
 I have only tested with Styled Player List on a fabric 1.21.8 server. It may be compatible with other server mods but I do not know.
-Styled Player List: https://modrinth.com/mod/styledplayerlist
+
+Styled Player List is available here: https://modrinth.com/mod/styledplayerlist
